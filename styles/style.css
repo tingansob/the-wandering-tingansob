@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+header {
+  width: 100%;
+}
+
+header .container-fluid {
+  border: 1px solid goldenrod;
+}
+
+h1.logo {
+  background-repeat: no-repeat;
+  width: 50px;
+  padding: 2px;
+  text-indent: -1000px;
+  float: left;
+}
+
+h1#swap-logo {
+  background-image: url(/images/brand2.png);
+}
+h1#swap-logo:hover {
+  background-image: url(/images/brand.png);
+}
+
+header nav {
+  float: right;
+}
+
+header nav h2 {
+  text-indent: -10000px;
+  height: 0;
+  margin: 0;
+}
+
+header nav li {
+  float: left;
+  list-style-type: none;
+  margin: 25px 20px;
+}
+#main-banner img {
+  width: 100%;
+}
+
+.home-menu ul {
+  list-style-type: none;
+  float: right;
+}
+.dish {
+  color: #888 ;
+  font-family: 'Dosis', cursive;
+}
